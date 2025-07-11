@@ -62,7 +62,11 @@ nav {
     width: 195px;
     height: 48px;
 }
-.nav-btn:hover,.banner-btn:hover,.launch-btn:hover,.focus-btn:hover{
+.touch-btn{
+    width: 560px;
+    height: 62px;
+}
+.nav-btn:hover,.banner-btn:hover,.launch-btn:hover,.focus-btn:hover,.touch-btn:hover{
     background-color: black;
 }
 .banner{
@@ -157,5 +161,72 @@ nav {
     width:840px ;
     height:365px ;
     border-radius: 42px;
-    margin: 10px 20 px 30 px 40px;
+    
+}
+
+.touch-sec{
+    width: 1140px;
+    height: 632px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 115px;
+}
+
+section input[type="email"], section input[type="text"], section textarea{
+    height: 70px;
+    width: 560px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px ;
+    padding: 20px 32px;
+}
+.touch-title{
+    font-size:97px ;
+    font-weight: 700;
+}
+
+.form-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    margin-top: 104px;
+    margin-bottom: 103px;
+    padding: 104px 455px;
+}
+.footer-content{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    align-self:center;
+
+}
+.footer-title{
+    font-size: 100px;
+    font-weight:900 ;
+    margin-bottom: 8px;
+    color: #4E47FF;
+}
+.footer-description,.footer-column{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    max-width: 800px;   
+    margin: 0 auto;     
+    text-align: center; 
+}
+.footer-column{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    justify-content: center;
+}
+.foot-align{
+    width: 600px;
+    height: auto;
 }
