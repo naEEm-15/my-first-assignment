@@ -57,10 +57,12 @@ nav {
     width: 229px;
     height: 48px;
     padding: 12px 36px;
-    
-
 }
-.nav-btn:hover,.banner-btn:hover,.launch-btn:hover{
+.focus-btn{
+    width: 195px;
+    height: 48px;
+}
+.nav-btn:hover,.banner-btn:hover,.launch-btn:hover,.focus-btn:hover{
     background-color: black;
 }
 .banner{
@@ -130,4 +132,30 @@ nav {
     font-size:20px;
     color:rgba(0, 0, 0, 0.5);
     font-weight:400;
+}
+.focus{
+    height: 696px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(255, 255, 255, 1) ;
+    margin: 140px 150px 100px 150px;
+}
+.focus-content{
+    margin-bottom: 20px;
+}
+.focus-title{
+    font-size:50px;
+    padding-top: 71px;
+}
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+}
+.focus-img{
+    width:840px ;
+    height:365px ;
+    border-radius: 42px;
+    margin: 10px 20 px 30 px 40px;
 }
