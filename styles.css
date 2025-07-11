@@ -31,7 +31,7 @@ nav {
     font-weight: 900;
 }
 
-.nav-btn,.banner-btn{
+.btn{
     background-color: #4E47FF;
     color: white;
     font-size: 16px;
@@ -48,15 +48,45 @@ nav {
     width: 174px;
     height:48px ;
 }
-.nav-btn:hover,.banner-btn:hover {
+.launch-btn{
+    width: 229px;
+    height: 48px;
+    padding: 12px 36px;
+    
+
+}
+.nav-btn:hover,.banner-btn:hover,.launch-btn:hover{
     background-color: black;
 }
 .banner{
     text-align: center;
-    max-width: ;
     margin:310px 262px 152px 262px;
     
 }
 .banner-content{
     font-size: 65px;
+}
+.action{
+    display:flex;
+    justify-content: space-between;
+    margin:116px 150px ;
+    align-items: center;
+}
+.section-title{
+    font-size:42px;
+    margin:62.5px 0px 23px 0px;
+
+}
+.section-description{
+   font-size: 24px;
+   font-weight: 400;
+   color: rgba(37, 36, 50, 0.5);
+   margin:23px 240px 23px 0px;
+ 
+}
+
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 42px;
 }
